@@ -7,6 +7,8 @@ URL:		https://pypi.org/project/roman-numerals-py/
 License:	None
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildSystem:	python
 BuildArch:	noarch
 
